@@ -1,4 +1,6 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<img [src]="img" alt="" [style.width.%]="width" />
+
+<button (click)="openImage()">Open Image</button>
+<button (click)="randomImage()">Rnd Image</button>
+<button (click)="incWidth()">+</button>
+<button (click)="decWidth()">-</button>
